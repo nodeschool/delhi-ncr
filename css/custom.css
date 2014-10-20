@@ -1,0 +1,50 @@
+h1 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+.content {
+  background-color: #808080;
+  background:  no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 15%;
+    display: inline-block;
+    margin: 35px 11%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn-dropcode {
+    background: #F5F5F5;
+    color: #000;
+    box-shadow: 0 6px #666666;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 0 0 5px 5px;
+}
+.btn-dropcode:hover {
+    color: #000;
+    box-shadow: 0 8px #666666;
+    top: -2px;
+}
+.btn-dropcode:active {
+    box-shadow: 0 0 #666666;
+    top: 6px;
+}
