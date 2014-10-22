@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section {
+    padding: 20px 0;
+    min-height: 400px;
+}
+.section.header {
+    text-align: center;
+    background: url('../images/ns-bg-dark.jpg') center center no-repeat #fafa00;
+    background-size: cover;
+    border-bottom: 1px solid #dd0;
+    border-top: 1px solid #dd0;
+}
+.row {
+    max-width: 1200px;
+    width: 90%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.flr {float: right;}
+
+.header img{
+    height:230px;
+    display: block;
+    width:auto;
+    margin:auto;
+}
+
+h1.heading{
+    text-align: center;
+    color: #222;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+}
+
+
+#link{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+    font-size: 15px;
+}
+
+a.link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+a.link:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.upper {
+    text-transform: uppercase;
+}
+.slant {
+    font-family: 'OpenSansItalic', sans-serif;
+}
+
+p.banner {
+    
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 3em;
+    word-break: break-all;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+p.banner.banner-left {float: left; margin: inherit;width: 65%;}
+p.banner.banner-right {float: right;margin: inherit;width: 65%;}
+p.banner span.fa, .row span.fa {
+    font-size: 0.6em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.row h1 {
+    font-size: 3.5em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p.normal {
+    font-size: 1.4em;
+}
+
+p.banner a, p.normal a {
+    font-size: 0.9em;
+    color: #000;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+p.banner a:hover, p.normal a:hover {
+    background-color: #000;
+    color: #fff;
+}
+p.banner a.topic {
+    font-size: 16px;
+    display: block;
+    color: #000;
+    text-align: left;
+    /*margin-bottom: 10px;*/
+    border: 0;
+    border-bottom: 1px solid #eee;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+p.banner a.topic:hover {
+    background-color: #000;
+    color: #fff;
+}
+p.banner a.topic span {display: block; font-size: 1.7em; line-height: 1.3em;}
+p.banner a.topic span.title {font-family: monospace; font-weight: normal;font-size: 2em; }
+
+.white-text {color: #fff;}
+.center {text-align: center;}
+
+.node-logo {
+    /*height: 350px;*/
+}
+
+/* SECTION BASED MARGINTOPS */
+.row.section0 {margin-top: 50px;}
+.row.section1 {margin-top: 40px;}
+.row.section2 {margin-top: 60px;}
+
+/* SECTION BACKGROUND COLORS */
+.section.yellow { background-color: #fafa00; }
+.section.green { background-color: #79c92a; color: #fff; }
+.section.orange { background-color: #ff9d33; }
