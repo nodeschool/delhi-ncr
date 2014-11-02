@@ -18,6 +18,6 @@ There will be:
 5. Mentors
 6. stickers.. ;)
 
-The seats are limited, if you are interested lus us know. It will be held at our office @Intelligrape Software Pvt Ltd. in Noida - Special economic zone.
+The seats are limited, if you are interested let us know. It will be held at our office @Intelligrape Software Pvt Ltd. in Noida - Special economic zone.
 
 Further guidelines will be published in a few days.
