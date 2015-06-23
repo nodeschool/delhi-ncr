@@ -119,7 +119,7 @@ p.banner a:hover, p.normal a:hover {
     background-color: #000;
     color: #fff;
 }
-p.banner a.topic {
+p.banner .topic {
     font-size: 16px;
     display: block;
     color: #000;
@@ -130,12 +130,12 @@ p.banner a.topic {
     padding: 10px 20px;
     border-radius: 0;
 }
-p.banner a.topic:hover {
+p.banner .topic:hover {
     background-color: #000;
     color: #fff;
 }
-p.banner a.topic span {display: block; font-size: 1.7em; line-height: 1.3em;}
-p.banner a.topic span.title {font-family: monospace; font-weight: normal;font-size: 2em; }
+p.banner .topic span {display: block; font-size: 1.7em; line-height: 1.3em;}
+p.banner .topic span.title {font-family: monospace; font-weight: normal;font-size: 2em; }
 
 .white-text {color: #fff;}
 .center {text-align: center;}
